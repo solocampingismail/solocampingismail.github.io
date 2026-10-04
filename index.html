@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solocampingismail</title>
+    <meta
+      name="description"
+      content="Doğa kampı, karavan, trekking ve outdoor yaşam içerikleri için Solocampingismail YouTube kanalı."
+    />
+    <style>
+      :root {
+        --bg: #f4f1e8;
+        --card: rgba(255, 255, 255, 0.9);
+        --primary: #1d7f4d;
+        --primary-dark: #145a38;
+        --text: #1a1a1a;
+        --muted: #5f5f5f;
+        --shadow: 0 20px 50px rgba(14, 42, 26, 0.15);
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(135deg, #eaf7ec 0%, #f3f0e7 100%);
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--text);
+      }
+
+      .card {
+        width: min(92vw, 560px);
+        background: var(--card);
+        border: 1px solid rgba(29, 127, 77, 0.08);
+        border-radius: 22px;
+        box-shadow: var(--shadow);
+        padding: 32px 24px;
+        text-align: center;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 8px 14px;
+        border-radius: 999px;
+        background: rgba(29, 127, 77, 0.12);
+        color: var(--primary-dark);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 18px 0 10px;
+        font-size: clamp(2rem, 5vw, 2.9rem);
+        line-height: 1.1;
+      }
+
+      p {
+        margin: 0 auto 24px;
+        max-width: 420px;
+        color: var(--muted);
+        font-size: 1.05rem;
+        line-height: 1.6;
+      }
+
+      .button {
+        display: inline-block;
+        width: 100%;
+        max-width: 280px;
+        background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+        color: #ffffff;
+        border: none;
+        border-radius: 14px;
+        padding: 16px 18px;
+        font-size: 1rem;
+        font-weight: 700;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        box-shadow: 0 12px 30px rgba(29, 127, 77, 0.22);
+      }
+
+      .button:hover {
+        transform: translateY(-2px);
+      }
+
+      .qr-wrap {
+        margin-top: 28px;
+      }
+
+      .qr-wrap img {
+        width: min(210px, 56vw);
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 16px;
+        background: #ffffff;
+        padding: 10px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      }
+
+      .caption {
+        margin-top: 12px;
+        font-size: 0.8rem;
+        color: var(--muted);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="badge">Solocampingismail</div>
+      <h1>Doğa, kamp ve outdoor yaşam</h1>
+      <p>
+        Kamp rehberleri, karavan bilgileri, doğa yaşamı ve pratik outdoor ipuçları için
+        kanalıma katılın.
+      </p>
+
+      <a class="button" href="https://www.youtube.com/@solocampingismail" target="_blank" rel="noopener">
+        YouTube Kanalı
+      </a>
+
+      <div class="qr-wrap">
+        <img
+          src="https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=https%3A%2F%2Fwww.youtube.com%2F%40solocampingismail"
+          alt="Solocampingismail QR Kodu"
+        />
+      </div>
+      <div class="caption">Kanalı telefonundan da aç</div>
+    </main>
+  </body>
+</html>
